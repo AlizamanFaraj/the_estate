@@ -1,0 +1,164 @@
+header .container nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .container nav .the_estate {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+header .container nav .home_and_five_list {
+  color: white;
+  display: flex;
+  gap: 30px;
+}
+header .container nav .contact {
+  background-color: #fd784f;
+  color: white;
+  padding: 10px 40px;
+}
+header .container .find_write {
+  display: flex;
+  justify-content: center;
+}
+header .container .find_write .find_your_home_write {
+  font-size: 60px;
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+  header .container nav .responsive_icon {
+    display: block;
+    font-size: 25px;
+    color: white;
+  }
+  header .container nav .home_and_five_list {
+    display: none;
+  }
+  header .container nav .contact {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  header .container nav .responsive_icon {
+    display: none;
+  }
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.bgImg {
+  background-image: url(https://preview.colorlib.com/theme/theestate/images/home_slider_bcg.jpg);
+  margin: auto;
+  max-width: 1440px;
+  margin: auto;
+  height: 600px;
+}
+
+main .container .featured {
+  padding: 100px;
+  text-align: center;
+}
+main .container .featured h1 {
+  font-size: 25px;
+  color: #1e2c4e;
+}
+main .container .featured h3 {
+  color: silver;
+}
+main .container .featured .cards {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+main .container .featured .cards .card_one {
+  border: 1px solid silver;
+  width: 350px;
+  height: 750px;
+}
+main .container .featured .cards .card_one .image img {
+  width: 100%;
+}
+main .container .featured .cards .card_one .about_write {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+main .container .featured .cards .card_one .about_write h1 {
+  padding: 30px 10px;
+}
+main .container .featured .cards .card_one .about_write p {
+  padding: 0px 20px;
+  color: silver;
+}
+main .container .featured .cards .card_one .about_write .five_element {
+  display: flex;
+  padding: 20px 30px;
+  gap: 30px;
+}
+main .container .featured .cards .card_one .about_write .five_element .elements {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main .container .featured .cards .card_one .about_write .two {
+  display: flex;
+  padding: 0px 30px;
+  gap: 30px;
+  margin-left: 15px;
+}
+main .container .featured .cards .card_one .about_write .two .elements {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main .container .featured .cards .card_one .about_write .hottub {
+  display: flex;
+  gap: 30px;
+  padding: 30px;
+}
+main .container .featured .cards .card_one .about_write .hottub .boxing_div {
+  background-color: orangered;
+  color: white;
+  padding: 5px;
+}
+main .container .featured .cards .card_one .about_write .twoo_div {
+  display: flex;
+  gap: 30px;
+  padding-left: 30px;
+}
+main .container .featured .cards .card_one .about_write .twoo_div .boxing_div {
+  background-color: orangered;
+  color: white;
+  padding: 5px;
+}
+main .container .featured .cards .card_one .price {
+  display: flex;
+  gap: 10px;
+  padding: 25px 30px;
+  background-color: #1e2c4e;
+  margin-top: 20px;
+}
+main .container .featured .cards .card_one .price .icon_price {
+  display: flex;
+}
+main .container .featured .cards .card_one .price .icon_price img {
+  width: 40px;
+  height: 40px;
+}
+main .container .featured .cards .card_one .price .buy {
+  width: 200px;
+}
+main .container .featured .cards .card_one .price .buy h1 {
+  color: white;
+}/*# sourceMappingURL=main.css.map */
